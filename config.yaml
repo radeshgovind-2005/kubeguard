@@ -1,9 +1,0 @@
-watch:
-  resources: # Watch for ...
-    - pods
-  namespaces: # What to monitor in ...
-    - default
-    - kube-system
-
-notifier: # Where we can be notied in ... (terminal)
-  type: stout
